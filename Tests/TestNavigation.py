@@ -1,6 +1,5 @@
 import time
 import pytest
-import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -29,6 +28,7 @@ class TestNav():
         time.sleep(1)
         current_page = FindElem(NavData['TEST'])
         assert(current_page.text == 'BOOKS')
+
     def test_Navigation_2(self):
 
         click_button = FindElem(NavData['COMPUTERS'])
