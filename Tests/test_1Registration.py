@@ -1,5 +1,6 @@
 import time
 import pytest
+import DataStorage
 from conftest import browser
 from Pages.RegistrationPage import RegPage
 
@@ -17,4 +18,4 @@ class TestRegistration:
         time.sleep(1)
         page.clicktoButtonReg(browser)
 
-        assert page.checkReg(browser).text == DataSt.TestData['TestEmail']
+        assert page.checkReg(browser).text == DataStorage.TestData['TestEmail']

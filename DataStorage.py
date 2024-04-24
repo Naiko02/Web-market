@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-TestData={
-    'TestEmail': "MeduzaKarapuza@mail.ru",
+TestData = {
+    'TestEmail': "MeduzaKarapuzatrtrtr@mail.ru",
     'TestPassword': "12345678"
 }
 
